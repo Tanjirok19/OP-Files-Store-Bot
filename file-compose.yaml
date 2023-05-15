@@ -1,0 +1,12 @@
+version: "3.10"
+services:
+  worker:
+    build: .
+    environment:
+      - TG_BOT_TOKEN=${TG_BOT_TOKEN}
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
+      - CHANNEL_ID=${CHANNEL_ID}
+      - OWNER_ID=${OWNER_ID}
+      - DATABASE_URL=${DATABASE_URL}
+      - FORCE_SUB_CHANNEL=${FORCE_SUB_CHANNEL}
