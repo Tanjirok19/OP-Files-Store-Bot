@@ -1,3 +1,6 @@
+python-telegram-bot==13.7
+
+
 # --- For-Bot-Working --------- #
 git+https://github.com/subinps/pyrogram@inline-m
 TgCrypto
