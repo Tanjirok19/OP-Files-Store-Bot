@@ -1,3 +1,0 @@
-name: op-files-store-bot
-buildpacks:
-  - heroku/python
